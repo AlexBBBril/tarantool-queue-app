@@ -1,0 +1,20 @@
+2025-06-10 13:50:40.989 [78344] main/103/queue1 I> Tarantool 2.11.7-0-g4e04060150 Linux-x86_64-RelWithDebInfo
+2025-06-10 13:50:40.989 [78344] main/103/queue1 I> log level 5
+2025-06-10 13:50:40.989 [78344] main/103/queue1 I> wal/engine cleanup is paused
+2025-06-10 13:50:40.989 [78344] main/103/queue1 I> mapping 268435456 bytes for memtx tuple arena...
+2025-06-10 13:50:40.989 [78344] main/103/queue1 I> Actual slab_alloc_factor calculated on the basis of desired slab_alloc_factor = 1.044274
+2025-06-10 13:50:40.989 [78344] main/103/queue1 I> mapping 134217728 bytes for vinyl tuple arena...
+2025-06-10 13:50:40.991 [78344] main/103/queue1 I> update replication_synchro_quorum = 1
+2025-06-10 13:50:40.991 [78344] main/103/queue1 I> instance uuid 9015af89-4cf4-4e06-b8bd-aabfd2b0fbac
+2025-06-10 13:50:40.991 [78344] main/103/queue1 I> initializing an empty data directory
+2025-06-10 13:50:41.008 [78344] main/103/queue1 I> assigned id 1 to replica 9015af89-4cf4-4e06-b8bd-aabfd2b0fbac
+2025-06-10 13:50:41.008 [78344] main/103/queue1 I> update replication_synchro_quorum = 1
+2025-06-10 13:50:41.008 [78344] main/103/queue1 I> cluster uuid 6d8751d8-da58-4427-9b84-2df405721739
+2025-06-10 13:50:41.008 [78344] snapshot/101/main I> saving snapshot `data/queue1/00000000000000000000.snap.inprogress'
+2025-06-10 13:50:41.012 [78344] snapshot/101/main I> done
+2025-06-10 13:50:41.012 [78344] main/103/queue1 I> ready to accept requests
+2025-06-10 13:50:41.012 [78344] main/105/gc I> wal/engine cleanup is resumed
+2025-06-10 13:50:41.012 [78344] main/103/queue1/box.load_cfg I> set 'log' configuration option to ".\/data\/queue1.log"
+2025-06-10 13:50:41.013 [78344] main/106/checkpoint_daemon I> scheduled next checkpoint for Tue Jun 10 14:53:57 2025
+2025-06-10 13:50:41.013 [78344] main I> entering the event loop
+2025-06-10 14:18:49.056 [78344] main C> got signal 15 - Terminated
