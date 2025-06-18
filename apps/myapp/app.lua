@@ -39,6 +39,8 @@ end
 
 box.cfg(config)
 
+queue = require('queue')
+
 if not under_tarantoolctl then
     require('console').start()
     os.exit()
