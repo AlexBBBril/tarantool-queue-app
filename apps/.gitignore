@@ -1,3 +1,5 @@
 /myapp/data/queue1/*
 /myapp/data/queue1.log
 /myapp/data/queue1.pid
+/myapp/data/queue2.log
+/myapp/data/queue2.pid
