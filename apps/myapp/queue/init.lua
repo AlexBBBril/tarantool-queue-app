@@ -72,6 +72,18 @@ box.session.on_disconnect(function()
     queue.bysid[sid] = nil
 end)
 
+while true do
+    local t = box.space.queue.index.status
+                 :pairs({STATUS.TAKEN})
+                 :grep(function(t) return not queue.taken[t.id] end)
+                 :nth(1)
+    if not t then
+        break
+    end
+    box.space.queue:update({t.id}, {{'=', 'status', STATUS.READY}})
+    log.info("Autoreleased %s at start", t.id)
+end
+
 function queue.put(...)
     local id = uuid():str()
     queue._wait:put(true, 0)
